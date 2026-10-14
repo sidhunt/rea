@@ -46,5 +46,12 @@
     "tests/boundary/mcp/gdbCancellationMcp.test.ts",
     "tests/boundary/mcp/rizinDebuggerCancellationMcp.test.ts"
   ],
-  "exclude": ["dist", "node_modules"]
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  }
 }
